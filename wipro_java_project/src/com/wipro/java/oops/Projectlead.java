@@ -5,16 +5,16 @@ package com.wipro.java.oops;
 
 /**
  * Parent class = Employee
- * Child class = Teamlead
+ * Child class = Projectlead
  * keyword = extends
  * 
  */
-public class Teamlead extends Employee{
+public class Projectlead extends Employee{
 
 	/**
 	 * 
 	 */
-	public Teamlead() {
+	public Projectlead() {
 		// TODO Auto-generated constructor stub
 	}
 
