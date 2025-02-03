@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.wipro.java.oops.inheritance;
+package com.wipro.java.oops.polymorphism;
 
 /**
  * 
