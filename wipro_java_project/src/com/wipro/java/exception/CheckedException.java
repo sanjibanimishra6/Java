@@ -15,7 +15,7 @@ public class CheckedException {
 		try {
 			
 			 File file = new File("Idontexist.txt");
-	            FileReader fr = new FileReader(file);  // May throw FileNotFoundException (Checked Exception)
+	            FileReader fr = new FileReader(file);  //  FileNotFoundException (Checked Exception)
 	        } 
 		catch (IOException e) {
 	            System.out.println("Sorry there is no such file: " + e.getMessage());
