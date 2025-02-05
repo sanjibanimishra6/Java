@@ -40,7 +40,7 @@ public class ListOperations {
         //setting the element for  the index
         l1.set(0, 5);
         System.out.println(l1);
-      
+       
 	}
 
 }

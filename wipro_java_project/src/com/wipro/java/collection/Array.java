@@ -4,7 +4,7 @@ public class Array {
 
 
  public static void main(String[] args) {
-		
+		//Creating array named arr
   int []arr;
 //allocating memory for 5 integers
    arr = new int[5];
