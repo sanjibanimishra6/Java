@@ -1,5 +1,4 @@
 package com.wipro.java.collection;
-import java.util.*;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.LinkedList;
@@ -9,8 +8,8 @@ import java.util.Map;
 public class Collections {
 
 	public static void main(String[] args) {
-		/*Implementation of array
-		 * 
+		/*
+		 *Implementation of array 
 		 */
 		
 		
@@ -27,7 +26,9 @@ public class Collections {
 		//accessing elements from the specified array
 		for(int i = 0; i < arr.length;i++) {
 			System.out.println("Element at index " + i + ":" + arr[i]);
+			
 		}
+		System.out.println();
 		//Implementations of List and its operations
 		
 		List<Integer> l1 = new ArrayList<Integer>();
@@ -57,6 +58,7 @@ public class Collections {
         //setting the element for  the index
         l1.set(0, 5);
         System.out.println(l1);
+        System.out.println();
         
         // Implementation of LinkedList
       //size of the linked list
@@ -79,6 +81,10 @@ public class Collections {
       		{
       			System.out.print(li.get(i) + " ");
       			}
+      		
+      		System.out.println();
+      		
+      		
       		
       		//Implementation of Map
       	//Creating a Hash Map where integer is the key and String is the value
