@@ -13,7 +13,7 @@ public class Collections {
 		 */
 		
 		
-		
+		System.out.println("Implementation of array:");
 		 int []arr;
 		//allocating memory for 5 integers
 		   arr = new int[5];
@@ -28,7 +28,7 @@ public class Collections {
 			System.out.println("Element at index " + i + ":" + arr[i]);
 			
 		}
-		System.out.println();
+		System.out.println("Implementations of List and its operations: ");
 		//Implementations of List and its operations
 		
 		List<Integer> l1 = new ArrayList<Integer>();
@@ -58,7 +58,7 @@ public class Collections {
         //setting the element for  the index
         l1.set(0, 5);
         System.out.println(l1);
-        System.out.println();
+        System.out.println("Implementation of LinkedList: ");
         
         // Implementation of LinkedList
       //size of the linked list
@@ -79,10 +79,10 @@ public class Collections {
       		// Printing elements one by one
       		for (int i = 0; i < li.size(); i++)
       		{
-      			System.out.print(li.get(i) + " ");
+      			System.out.println(li.get(i) + " ");
       			}
       		
-      		System.out.println();
+      		System.out.println("Implementation of Map:");
       		
       		
       		
