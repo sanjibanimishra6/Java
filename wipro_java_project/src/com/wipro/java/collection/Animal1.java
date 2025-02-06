@@ -10,7 +10,7 @@ import java.util.Comparator;
 public class Animal1{
 	private String name; //Animal Name
 	private int age; // Age
-
+//Constructor
 	public Animal1(String name, int age) {
 	this.name = name;
 	this.age = age;

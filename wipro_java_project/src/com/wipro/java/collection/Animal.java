@@ -22,12 +22,7 @@ public int compareTo(Animal a) {
 	// TODO Auto-generated method stub
 	return this.age - a.age; 
 }
-
-
-	
-	/**
- * @return the name
- */
+//getters
 public String getName() {
 	return name;
 }
@@ -36,7 +31,7 @@ public int getAge() {
 	return age;
 }
 
-
+//main method
 	public static void main(String[] args) {
 		ArrayList<Animal> a1 = new ArrayList<>();
 		a1.add(new Animal ("Dog" ,15));

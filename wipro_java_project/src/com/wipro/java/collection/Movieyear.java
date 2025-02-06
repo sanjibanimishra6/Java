@@ -5,8 +5,8 @@ import java.util.Comparator;
 public class Movieyear implements Comparator<Movie1> {
 
 public int compare(Movie1 m1 , Movie1 m2) {
-	//Sort by rating in descending order
-	return  Double.compare(m2.getR(), m1.getR());
+	//Sort by year in descending order
+	return  Integer.compare(m1.getY(), m2.getY());
 
 }
 public static void main(String[]args) {
@@ -27,6 +27,11 @@ public static void main(String[]args) {
 	for(Movie1 m : m1) {
 		System.out.println(m.getN()+ " " + m.getR()+" "+m.getY());
 	}
-}}
+	//Sort movies by years and display all
+	Collections.sort(m1,new Movieyear());
+	System.out.println("Movies sorted by Year");
+	for(Movie1 m : m1) {
+		System.out.println(m.getN()+ " " + m.getR()+" "+m.getY());
+}}}
 
 

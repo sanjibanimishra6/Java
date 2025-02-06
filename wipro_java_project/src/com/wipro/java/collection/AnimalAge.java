@@ -7,11 +7,11 @@ public class AnimalAge implements Comparator<Animal1> {
 
 public int compare(Animal1 a1 , Animal1 a2) {
 	//Sort by age in descending order
-	 return  Double.compare(a2.getAge(), a1.getAge());
+	return  Integer.compare(a2.getAge(), a1.getAge());
 
 }
 public static void main(String[]args) {
-	//Create list of movies
+	//Create list of Animals
 	ArrayList<Animal1> aa = new ArrayList<>();
 	aa.add(new Animal1 ("Dog" ,15));
 	aa.add(new Animal1("Lion", 19));

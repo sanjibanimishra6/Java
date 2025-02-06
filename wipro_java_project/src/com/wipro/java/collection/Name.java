@@ -28,5 +28,12 @@ public static void main(String[]args) {
 	System.out.println("Movies sorted by name");
 	for(Movie1 m : m1) {
 		System.out.println(m.getN()+ " " + m.getR()+" "+m.getY());
-	}}}
+	}
+	//Sort movies by years and display all
+		Collections.sort(m1,new Movieyear());
+		System.out.println("Movies sorted by Year");
+		for(Movie1 m : m1) {
+			System.out.println(m.getN()+ " " + m.getR()+" "+m.getY());
+	}
+	}}
 

@@ -6,12 +6,12 @@ package com.wipro.java.collection;
 	public class AnimalName implements Comparator<Animal1> {
 
 	public int compare(Animal1 a1 , Animal1 a2) {
-		//Sort by rating in descending order
+		//Sort by Name in alphabetical  order
 		return  a1.getName().compareTo(a2.getName());
 
 	}
 	public static void main(String[]args) {
-		//Create list of movies
+		//Create list of Animals
 		ArrayList<Animal1> aa = new ArrayList<>();
 		aa.add(new Animal1 ("Dog" ,15));
 		aa.add(new Animal1("Lion", 19));

@@ -29,6 +29,12 @@ public int compare(Movie1 m1 , Movie1 m2) {
 		for(Movie1 m : m1) {
 			System.out.println(m.getN()+ " " + m.getR()+" "+m.getY());
 		}
+		//Sort movies by years and display all
+		Collections.sort(m1,new Movieyear());
+		System.out.println("Movies sorted by Year");
+		for(Movie1 m : m1) {
+			System.out.println(m.getN()+ " " + m.getR()+" "+m.getY());
+	}
 	}
 
 }
