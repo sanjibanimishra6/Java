@@ -6,7 +6,7 @@ import java.util.Comparator;
 public class AnimalAge implements Comparator<Animal1> {
 
 public int compare(Animal1 a1 , Animal1 a2) {
-	//Sort by age in descending order
+	//Sort by age in descending order.
 	return  Integer.compare(a2.getAge(), a1.getAge());
 
 }
