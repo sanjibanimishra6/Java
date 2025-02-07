@@ -22,8 +22,8 @@ public void testAddWithNegativeNumbers() {
 assertEquals(-7,result);}
 
 public void testSubtractWithNegativeNumbers() {
-	int result = calculator.add1(-7, -2);
-assertEquals(-5,result);}
+	int result = calculator.add1(-8, -2);
+assertEquals(-6,result);}
 
 
 }
